@@ -22,7 +22,6 @@ A full-stack industrial IoT application that uses machine learning to predict eq
 - [Dataset](#-dataset)
 - [Screenshots](#-screenshots)
 - [Contributing](#-contributing)
-- [License](#-license)
 
 ---
 
