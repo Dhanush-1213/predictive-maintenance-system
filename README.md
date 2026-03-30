@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔧 Predictive Maintenance System
+#  Predictive Maintenance System
 
 ### An industrial IoT application that uses machine learning to predict equipment failures before they happen
 
@@ -348,7 +348,7 @@ Batch prediction from a CSV file upload.
 
 **Dhanush K**  
 PES University | CSE (AIML)  
-GitHub: [@Dhanush-1213](https://github.com/Dhanush-1213)
+LinkedIn: [@Dhanush K](https://www.linkedin.com/in/dhanush-k-pes1312/)
 
 
 ---
