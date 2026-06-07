@@ -24,7 +24,7 @@
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 | Dashboard | Machine Alerts |
 |:---------:|:--------------:|
@@ -40,7 +40,7 @@
 
 ---
 
-## 🌐 Overview
+##  Overview
 
 Unplanned machine downtime is one of the costliest problems in industrial operations. This system uses a trained **Random Forest classifier** on the [AI4I 2020 Predictive Maintenance Dataset](https://archive.ics.uci.edu/ml/datasets/AI4I+2020+Predictive+Maintenance+Dataset) to analyze real-time sensor readings and predict the probability of machine failure before it happens.
 
@@ -48,19 +48,19 @@ The backend exposes a **FastAPI** REST API for both single and batch predictions
 
 ---
 
-## ✨ Features
+##  Features
 
-- ⚡ **Real-time Failure Prediction** — Submit live sensor readings and get instant failure probability, risk score, and health status
-- 📂 **Batch CSV Upload** — Upload a CSV file of sensor readings and get predictions for every row at once
-- 🟢 **Health Status Classification** — Each machine is labelled `Healthy`, `Warning`, or `Critical` based on risk score thresholds
-- 🛠️ **Actionable Recommendations** — Rule-based engine surfaces specific maintenance guidance (e.g. *"Inspect cooling system and consider tool replacement"*)
-- 📊 **Interactive Sensor Charts** — Recharts-powered visualizations of torque, temperature, tool wear, and rotational speed across machines
-- 📈 **Model Metrics Dashboard** — Accuracy, Precision, Recall, F1 Score, ROC-AUC, feature importances, and confusion matrix — all served live from the model bundle
-- 📱 **Responsive UI** — Clean React dashboard with gradient layout, card-based health indicators, and alert panels
+-  **Real-time Failure Prediction** — Submit live sensor readings and get instant failure probability, risk score, and health status
+-  **Batch CSV Upload** — Upload a CSV file of sensor readings and get predictions for every row at once
+-  **Health Status Classification** — Each machine is labelled `Healthy`, `Warning`, or `Critical` based on risk score thresholds
+-  **Actionable Recommendations** — Rule-based engine surfaces specific maintenance guidance (e.g. *"Inspect cooling system and consider tool replacement"*)
+-  **Interactive Sensor Charts** — Recharts-powered visualizations of torque, temperature, tool wear, and rotational speed across machines
+-  **Model Metrics Dashboard** — Accuracy, Precision, Recall, F1 Score, ROC-AUC, feature importances, and confusion matrix — all served live from the model bundle
+-  **Responsive UI** — Clean React dashboard with gradient layout, card-based health indicators, and alert panels
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend
 
@@ -89,7 +89,7 @@ The backend exposes a **FastAPI** REST API for both single and batch predictions
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 predictive-maintenance-system/
@@ -134,7 +134,7 @@ predictive-maintenance-system/
 
 ---
 
-## 🤖 Machine Learning Model
+##  Machine Learning Model
 
 | Detail | Value |
 |---|---|
@@ -165,7 +165,7 @@ predictive-maintenance-system/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -220,7 +220,7 @@ npm run dev
 
 > **App** → `http://localhost:5173`
 
-> ⚠️ Make sure the backend server is running before launching the frontend.
+>  Make sure the backend server is running before launching the frontend.
 
 ---
 
@@ -257,7 +257,7 @@ Navigate to **Metrics** to view live model performance fetched from the model bu
 
 ---
 
-## 📡 API Reference
+##  API Reference
 
 ### `GET /`
 Health check. Returns `{ "message": "Predictive Maintenance API is running" }`.
@@ -320,7 +320,7 @@ Batch prediction from a CSV file upload.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 **AI4I 2020 Predictive Maintenance Dataset** — UCI Machine Learning Repository
 
@@ -332,7 +332,7 @@ Batch prediction from a CSV file upload.
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - [ ] WebSocket support for live streaming sensor data
 - [ ] Time-series anomaly detection model (LSTM / Isolation Forest)
@@ -344,7 +344,7 @@ Batch prediction from a CSV file upload.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Dhanush K**  
 PES University | CSE (AIML)  
